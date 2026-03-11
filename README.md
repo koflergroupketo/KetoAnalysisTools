@@ -17,6 +17,9 @@ Integration: mixOmics
 
 Visualization: pathview, ggplot2, and custom diagnostic plots.
 
+## 📊 Research Reports
+The report generated from the integration pipeline can be found here
+- [Melanoma multi-omics integration analysis](https://koflergroupketo.github.io/KetoAnalysisTools/Integration_final.html)
 
 ## 📂 Repository Structure
 
