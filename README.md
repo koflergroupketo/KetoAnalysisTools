@@ -18,17 +18,19 @@ Integration: mixOmics
 Visualization: pathview, ggplot2, and custom diagnostic plots.
 
 
-Keto-Project-Root/
-├── KetoAnalysisTools/         # <--- YOUR R PACKAGE
-│   ├── DESCRIPTION            # Package metadata
-│   ├── NAMESPACE              # Auto-generated
-│   ├── R/                     # Source code (your functions)
-│   ├── man/                   # Documentation (auto-generated)
-│   └── vignettes/             # Tutorials (the "how-to" analysis)
-├── analysis/                  # <--- RESEARCH OUTPUTS
-│   ├── 01_preprocessing.Rmd   # Raw data cleaning
-│   ├── 02_integration.Rmd     # The DIABLO workflow
-│   └── outputs/               # Final plots/tables
-├── data/                      # Raw data (git-ignored if large)
-├── README.md                  # Project-level landing page
-└── .gitignore                 # Tell git to ignore data/ and results/
+## 📂 Repository Structure
+
+```text
+.
+├── KetoAnalysisTools/        # R package source code
+│   ├── DESCRIPTION           # Package metadata
+│   ├── R/                    # Core integration functions
+│   ├── man/                  # Documentation
+│   └── vignettes/            # Analysis notebooks
+├── analysis/                 # Research scripts & workflows
+│   ├── 01_preprocessing.Rmd
+│   ├── 02_integration.Rmd
+│   └── outputs/              # Generated plots/tables
+├── data/                     # Raw input data
+├── .gitignore                # Project-wide ignore rules
+└── README.md                 # This documentation
